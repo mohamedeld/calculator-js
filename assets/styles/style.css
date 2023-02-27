@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 64.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.share-class{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    
+    padding:5rem 0;
+}
+header h1{
+    font-size: 3rem;
+}
+#calculator{
+    padding:2rem;
+    flex-direction: column;
+}
+#input-number{
+    border:none;
+    border-radius: 4px;
+    padding:2rem 8rem;
+}
+#cal-actions button{
+    border:none;
+    outline:none;
+    padding:1rem 1.5rem;
+    margin-left:1rem;
+    cursor: pointer;
+
+}
+#cal-actions{
+    padding-top:2rem;
+}
+#results{
+    flex-direction: column;
+}
