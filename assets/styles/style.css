@@ -26,6 +26,9 @@ header h1{
 #calculator{
     padding:2rem;
     flex-direction: column;
+    border:1px solid #ccc;
+    width:50%;
+    margin:auto;
 }
 #input-number{
     border:none;
@@ -45,4 +48,9 @@ header h1{
 }
 #results{
     flex-direction: column;
+    border:1px solid #ccc;
+    width:50%;
+    margin:auto;
+    margin-top:2rem;
+    padding:3rem 0;
 }
